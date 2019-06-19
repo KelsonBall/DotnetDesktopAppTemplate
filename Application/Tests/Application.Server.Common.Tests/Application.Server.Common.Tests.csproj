@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.7.0" />
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.12.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application.Server\Application.Server.csproj" />
+    <ProjectReference Include="..\..\ClientModules\Application.Client.Common\Application.Client.Common.csproj" />
+    <ProjectReference Include="..\..\Common\Application.Models\Application.Models.csproj" />
+    <ProjectReference Include="..\..\ServerModules\Application.Server.Common\Application.Server.Common.csproj" />
+  </ItemGroup>
+
+</Project>

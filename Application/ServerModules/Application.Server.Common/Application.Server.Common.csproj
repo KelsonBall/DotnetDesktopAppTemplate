@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kelson.Common.Async" Version="0.2.0-beta" />
+    <PackageReference Include="Ooorm.Data" Version="0.2.2-preview" />
+    <PackageReference Include="Ooorm.Data.SqlServer" Version="0.2.2-preview" />
+  </ItemGroup>
+
+</Project>

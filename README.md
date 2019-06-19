@@ -1,5 +1,7 @@
 # Dotnet Core Desktop Application Template
 
+**Work in progress, incomplete (6/18/2019)**
+
 This repository is intended to be used as a template for new dotnet core desktop applications using the `Kelson.Common` and `Ooorm.Data` packages.
 
 ## Overview
